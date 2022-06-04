@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaoquê Rolê de Migos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container">
+        <h1 class="title">Karaoquê Rolê de Migos</h1>
+        <nav class="navigation">
+            <ul class="navigation-itens">
+                <li><a href="#">Lista de músicas</a></li>
+                <li><a href="#">Crie sua sala</a></li>
+                <li><a href="#">Adicione músicas ao nosso reperetório</a></li>
+                <li><a href="#">Criadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="room-section">
+            <h2>Criar Salas</h2>
+            <p>Crie sua sala privativa e comece a cantar!</p>
+            <button class="button">Crie minha sala!</button>
+        </section>
+        <section class="section-add-music">
+            <h3>Adicione uma música</h3>
+            <p>Quer uma música que não está em nossas listas? Adicione você mesmo!!</p>
+            <button class="button">Adicionar música</button>
+            <div>
+                <form action="">
+                    <div>
+                        <label for="">Nome da música: </label>
+                        <input type="text" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Intérprete</label>
+                        <input type="text" placeholder="Músico / Banda" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Link: </label>
+                        <input type="text" placeholder="Link do Youtube versão Karaoquê" class="text-input">
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <input type="checkbox" name="" id="">Nacionais
+                        <input type="checkbox" name="" id="">Internacionais
+                        <input type="checkbox" name="" id="">Rock
+                        <input type="checkbox" name="" id="">Pop
+                        <input type="checkbox" name="" id="">MPB
+                    </div>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <aside class="aside-container">
+        <h2>Sugestões para você</h2>
+    </aside>
+    <footer class="footer">
+        <p class="footer__text">Os Incríveis criadores dessa página são: </p>
+        <section class="creators-section">
+            <div class="creator">
+                <div class="creator__info">
+                    <img class="creator__img" src="https://github.com/${username}.png" alt="">
+                    <p>Abner Freitas</p>
+                </div>
+                <div class="creator__medias">
+                    <a href=""><img class="medias__img" src="images/github-logo.png" alt=""></a>
+                    <a href=""><img class="medias__img" src="images/linkedin-logo.png" alt=""></a>
+                    <a href=""><img class="medias__img" src="images/github-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="creator">
+                <p>Artur Senna</p>
+                <a href=""><img class="medias__img" src="images/github-logo.png" alt=""></a>
+                <a href=""><img class="medias__img" src="images/linkedin-logo.png" alt=""></a>
+                <a href=""><img class="medias__img" src="" alt=""></a>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

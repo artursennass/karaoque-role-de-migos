@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.navigation-itens {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-itens li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+.navigation-itens li a:hover {
+    color: grey;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.room-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* max-width: 100%; */
+    align-items: center;
+    background-image: url(images/imagem-fundo-karaoquê.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 80vw;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.room-section h2 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+
+.room-section p {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(41, 41, 41); 
+
+    /* border-bottom: 3px solid black;
+    border-right: 3px solid black; */
+}
+
+.room-button:hover {
+    transform: scale(1.2);
+    border: 0px ;
+}
+
+.room-button:active {
+    background-color: whitesmoke;
+    border: 0px ;
+}
+
+.section-add-music {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-width: 80vw;
+    background-image: url(images/fundo-add-musica.jpg);
+    /* background-size: cover; */
+    min-width: 80vw;
+    color: antiquewhite;
+}
+
+.section-add-music h3 {
+    font-size: 3rem;
+    padding: 30px;
+}
+
+.section-add-music p {
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.section-add-music button {
+    margin-bottom: 20px;
+}
+
+.section-add-music div {
+
+}
+
+.aside-container {
+    display: flex;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;
+    padding: 1rem;
+}
+
+.footer__text {
+    font-size: 1.2rem;
+}
+
+.creators-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.creator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10%;
+    box-shadow: 5px 2px 2px black;
+    padding: 0.5rem;
+}
+
+.creator__img {
+    width: 50px;
+}
+
+.creator__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creator__medias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.medias__img {
+    width: 20px;
+}
