@@ -1,0 +1,30 @@
+{
+  "name": "karaoque-role-de-migos",
+  "version": "1.0.0",
+  "description": "Montagem de um sistema online para termos Karaoquê em qualquer lugar com internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defreitasabner/karaoque-role-de-migos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "contributors": [
+    {
+      "name": "Artur Senna"
+    },
+    {
+      "name": "Abner Freitas",
+      "email": "defreitasabner@gmail.com",
+      "url": "https://github.com/defreitasabner"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defreitasabner/karaoque-role-de-migos/issues"
+  },
+  "homepage": "https://github.com/defreitasabner/karaoque-role-de-migos#readme"
+}
