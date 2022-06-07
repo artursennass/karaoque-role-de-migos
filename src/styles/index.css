@@ -21,22 +21,28 @@
 .navigation {
     display: flex;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 1.2rem;
 }
 
 .navigation-itens {
     display: flex;
+    width: 100%;
     list-style: none;
+    justify-content: space-around;
 }
 
 .navigation-itens li a {
     text-decoration: none;
     color: antiquewhite;
-    padding: 5px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .navigation-itens li a:hover {
+    background-color: yellow;
     color: grey;
+    box-shadow: 1px 1px 1px rgb(41, 41, 41); 
+    transition: all 0.5s;
 }
 
 .main-container {
@@ -78,15 +84,16 @@
     padding: 20px;
     border-radius: 5px;
     color: antiquewhite;
-    box-shadow: 5px 5px 5px rgb(41, 41, 41); 
+    box-shadow: 1px 1px 1px rgb(41, 41, 41); 
 
     /* border-bottom: 3px solid black;
     border-right: 3px solid black; */
 }
 
-.room-button:hover {
-    transform: scale(1.2);
-    border: 0px ;
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(41, 41, 41);
+    transition: 0.5s box-shadow;
 }
 
 .room-button:active {
@@ -124,7 +131,7 @@
 }
 
 .section-add-music div {
-
+    display: flex;
 }
 
 .aside-container {
