@@ -2,7 +2,7 @@
   "name": "karaoque-role-de-migos",
   "version": "1.0.0",
   "description": "Montagem de um sistema online para termos Karaoquê em qualquer lugar com internet.",
-  "main": "index.js",
+  "main": "./src/pages/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
