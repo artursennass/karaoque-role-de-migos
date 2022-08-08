@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Montagem de um sistema online para termos Karaoquê em qualquer lugar com internet.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/defreitasabner/karaoque-role-de-migos/issues"
   },
-  "homepage": "https://github.com/defreitasabner/karaoque-role-de-migos#readme"
+  "homepage": "https://github.com/defreitasabner/karaoque-role-de-migos#readme",
+  "dependencies": {
+    "google-auth-library": "^8.1.1",
+    "googleapis": "^105.0.0"
+  }
 }

@@ -24,3 +24,4 @@ yarn-error.log*
 
 # our files
 .vscode/
+credentials/
