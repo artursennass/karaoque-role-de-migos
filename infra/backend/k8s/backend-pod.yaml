@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend
+  namespace: backend
+  labels:
+    app: backend
+spec:
+  containers:
+    - name: backend-pod
+      image: backend-image:1.0 #from python:3.10.7-slim-bullseye 
+      imagePullPolicy: Always
+#      envFrom:
+#      - secretRef:
+#          name:
+#      command:
+#     args:
+#      volumeMounts:
+#      - mountPath: /backend-data
+#        name: localvolume
+#  volumes:
+#  - name: localvolume
+#    hostPath:
+#      path: /mnt/disk/backend-data
+#      type: DirectoryOrCreate
+#  nodeSelector: 
+#    kubernetes.io/hostname:
