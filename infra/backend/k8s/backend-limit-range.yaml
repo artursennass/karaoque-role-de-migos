@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: backend-limit-range
+  namespace: backend
+spec:
+  limits:
+  - default:
+      memory: 2Gi
+#      cpu:
+    defaultRequest:
+      memory: 512Mi
+#      cpu:
+    type: Container
