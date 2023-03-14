@@ -1,0 +1,2 @@
+# All python dependencies required
+django==4.1.7
