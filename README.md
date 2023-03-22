@@ -1,7 +1,7 @@
-# Karaoke Backend
-Um projeto de karaokê desenvolvido de amigos para amigos. Esse repositório é referente ao back-end do projeto, mas você pode conferir também o [repositório do front-end](https://github.com/artursennass/karaoque-role-de-migos) para ter uma visão mais completa do projeto.
+# Karaoke Role de Migos
+Um projeto de karaokê desenvolvido de amigos para amigos.
 
-## Rodando projeto
+## Rodando o Backend
 Primeiro crie o **ambiente virtual** dentro da raiz do projeto:
 ~~~bash
 python3 -m venv venv
